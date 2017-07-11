@@ -8,7 +8,7 @@ EMAIL_HOST = 'mail.host.com'
 EMAIL_PORT = '25'
 DEFAULT_FROM_EMAIL = 'APP PROD <no-reply@example.com>'
 SERVER_EMAIL = 'Error 500 - APP Prod <error-500-app.prod@example.com>'
-´´´
+
 
 # Logger 
 
