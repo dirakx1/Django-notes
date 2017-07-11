@@ -1,5 +1,15 @@
 # Django-notes
 
+# Proper mail configuration
+
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.host.com'
+EMAIL_PORT = '25'
+DEFAULT_FROM_EMAIL = 'APP PROD <no-reply@example.com>'
+SERVER_EMAIL = 'Error 500 - APP Prod <error-500-app.prod@example.com>'
+´´´
+
 # Logger 
 
 ````
@@ -120,4 +130,12 @@ LOGGING = {
             'level': "DEBUG",
         },
     }
-}´´´´
+}
+´´´´
+
+ 
+
+
+
+
+
