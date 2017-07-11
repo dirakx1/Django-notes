@@ -2,7 +2,7 @@
 
 Logger 
 
-'''
+''''
 # Logging settings for django projects, works with django 1.5+
 # If DEBUG=True, all logs (including django logs) will be
 # written to console and to debug_file.
@@ -58,4 +58,4 @@ LOGGING = {
         },
     }
 }
-'''
+''''
