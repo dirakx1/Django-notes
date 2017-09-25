@@ -133,3 +133,6 @@ LOGGING = {
     }
 }
 ´´´´ 
+
+# Job.objects.filter(state=Job.NOT_SENT).update(flowbot_server=5)
+from flowbot.models import Job
