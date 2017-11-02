@@ -136,3 +136,12 @@ LOGGING = {
 
 # Job.objects.filter(state=Job.NOT_SENT).update(flowbot_server=5)
 from flowbot.models import Job
+
+# master data execute report
+
+from data_importer.models import FileUploadHistory
+f = FileUploadHistory.objects.get(id=324206)
+importer = MasterDataImporter()
+importer.execute(f, extra_user_params={})
+
+
