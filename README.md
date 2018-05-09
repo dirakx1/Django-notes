@@ -144,4 +144,14 @@ f = FileUploadHistory.objects.get(id=324206)
 importer = MasterDataImporter()
 importer.execute(f, extra_user_params={})
 
+# mail sending 
+
+from django.core.mail import send_mail
+send_mail(
+    'test',
+    'test.',
+    'test@test.com',
+    ['dirakx@gmail.com'],
+    fail_silently=False,
+)
 
